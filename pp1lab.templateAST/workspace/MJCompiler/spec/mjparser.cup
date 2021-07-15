@@ -1,0 +1,295 @@
+package rs.ac.bg.etf.pp1;
+
+import java_cup.runtime.*;
+import org.apache.log4j.*;
+
+//import java.io.*;
+import rs.ac.bg.etf.pp1.ast.*;
+import rs.ac.bg.etf.pp1.test.*;
+
+
+parser code {:
+	
+	boolean errorDetected = false;
+	
+	Logger log = Logger.getLogger(getClass());
+     
+    public void report_fatal_error(String message, Object info) throws java.lang.Exception {
+      done_parsing();
+      report_error(message, info);
+    }
+  
+    public void syntax_error(Symbol cur_token) {
+        report_error("Sintaksna greska", cur_token);
+    }
+  
+    public void unrecovered_syntax_error(Symbol cur_token) throws java.lang.Exception {
+        report_fatal_error("Fatalna greska, parsiranje se ne moze nastaviti", cur_token);
+    }
+
+    public void report_error(String message, Object info) {
+    	if (info instanceof Symbol){
+    		CompilerError error = new CompilerError(((Symbol)info).left, message, CompilerError.CompilerErrorType.SYNTAX_ERROR);
+			MyCompiler.ret.add(error);
+		}
+    	errorDetected = true;
+    	StringBuilder msg = new StringBuilder(message); 
+    	if (info instanceof Symbol)
+            msg.append (" na liniji ").append(((Symbol)info).left);
+        log.error(msg.toString());
+    }
+    
+    public void report_info(String message, Object info) {
+    	StringBuilder msg = new StringBuilder(message); 
+    	if (info instanceof Symbol)
+            msg.append (" na liniji ").append(((Symbol)info).left);
+        log.info(msg.toString());
+    }
+    
+:}
+
+scan with {:
+	Symbol s = this.getScanner().next_token();
+	if (s != null && s.value != null) 
+		log.info(s.toString() + " " + s.value.toString());
+	return s;
+:}
+
+terminal PLUS;
+terminal MINUS;
+terminal MULTIPLICATION;
+terminal DIVISION;
+terminal MODULO;
+terminal PROG;
+terminal LBRACE;
+terminal RBRACE;
+terminal String IDENT;
+terminal SEMI;
+terminal LEFTSQUARE;
+terminal RIGHTSQUARE;
+terminal COMMA;
+terminal CLASS;
+terminal EXTENDS;
+terminal VOID;
+terminal READ;
+terminal PRINT;
+terminal EQUAL;
+terminal INCREMENT;
+terminal DECREMENT;
+terminal QUESTION;
+terminal COLON;
+terminal NEW;
+terminal CONST;
+terminal LPAREN;
+terminal RPAREN;
+terminal Integer NUMCONST;
+terminal Character CHARCONST;
+terminal Boolean BOOLCONST;
+terminal IF;
+terminal ELSE;
+terminal ISEQUAL;
+terminal ISNOTEQUAL;
+terminal ISGREATER;
+terminal ISGREATEREQUAL;
+terminal ISLOWER;
+terminal ISLOWEREQUAL;
+terminal OR;
+terminal AND;
+terminal HASH;
+
+nonterminal DeclarationList;
+nonterminal MethodDeclList;
+nonterminal ConstDecl;
+nonterminal VarDecl;
+nonterminal ClassDecl;
+nonterminal ConstDeclList;
+nonterminal VarDeclNoMustList;
+nonterminal VarDeclNoMust;
+nonterminal ClassDeclNoMust;
+nonterminal VarDeclList;
+nonterminal FormsParsNoMust;
+nonterminal FormsPars;
+nonterminal FormsParsList;
+nonterminal StatementList;
+nonterminal Statement;
+nonterminal DesignatorStatement;
+nonterminal Addop;
+nonterminal Mulop;
+nonterminal If;
+nonterminal Else;
+nonterminal Condition;
+nonterminal Relop;
+
+nonterminal rs.etf.pp1.symboltable.concepts.Obj ProgName,Program,MethodDecl,MethodDeclMust,Designator;
+nonterminal rs.etf.pp1.symboltable.concepts.Struct Type,Factor,Expr,Expr1,Term,ConstDeclListMust,DesignatorStatementMust,AddopTermList,MulopFactorList,CondFact,CondFactList,CondTerm,CondTermList;
+
+precedence left ELSE;
+
+Program ::= (Program) PROG ProgName:p DeclarationList LBRACE MethodDeclList RBRACE
+;
+
+ProgName ::= (ProgName) IDENT:progName
+;
+
+DeclarationList ::= (DeclarationListConst) DeclarationList ConstDecl
+					| (DeclarationListVar) DeclarationList VarDecl
+					| (DeclarationListClass) DeclarationList ClassDecl
+					| (NoDeclarationList)
+;
+
+ConstDecl ::= (ConstDecl1) CONST Type IDENT:constName EQUAL NUMCONST ConstDeclList SEMI
+			  | (ConstDecl2) CONST Type IDENT:constName EQUAL CHARCONST ConstDeclList SEMI
+			  | (ConstDecl3) CONST Type IDENT:constName EQUAL BOOLCONST ConstDeclList SEMI
+;
+
+ConstDeclList ::= (ConstDeclList1) ConstDeclList COMMA IDENT:constName EQUAL ConstDeclListMust
+                  | (ConstDeclList2)
+;
+
+ConstDeclListMust ::= (ConstDeclListMust1) NUMCONST 
+                      | (ConstDeclListMust2) CHARCONST
+                      | (ConstDeclListMust3) BOOLCONST
+;
+
+VarDecl ::= (VarDecl1) Type IDENT:varName VarDeclNoMustList SEMI
+			| (VarDecl2) Type IDENT:varName LEFTSQUARE RIGHTSQUARE VarDeclNoMustList SEMI
+;
+
+Type ::= (Type) IDENT:typeName
+;
+
+VarDeclNoMustList ::= (VarDeclNoMustList1) VarDeclNoMustList VarDeclNoMust
+					  | (NoVarDeclNoMustList)  
+;
+
+VarDeclNoMust ::= (VarDeclNoMust1) COMMA IDENT:varName 
+				  | (VarDeclNoMust2) COMMA IDENT:varName LEFTSQUARE RIGHTSQUARE
+;
+
+ClassDecl ::= (ClassDecl1) CLASS IDENT EXTENDS Type LBRACE VarDeclList ClassDeclNoMust RBRACE
+			  | (ClassDecl2) CLASS IDENT LBRACE VarDeclList ClassDeclNoMust RBRACE
+;
+
+VarDeclList ::= (VarDeclList1) VarDeclList VarDecl
+				| (NoVarDeclList)
+;
+
+ClassDeclNoMust ::= (ClassDeclNoMust) LBRACE MethodDeclList RBRACE
+;
+
+MethodDeclList ::= (MethodDeclList1) MethodDeclList MethodDecl
+				    | (NoMethodDeclList)
+;
+
+MethodDecl ::= (MethodDecl) MethodDeclMust LPAREN FormsParsNoMust RPAREN VarDeclList LBRACE StatementList RBRACE
+;
+
+MethodDeclMust ::= (MethodDeclMustType) Type IDENT:methName
+					| (MethodDeclMustVoid) VOID:type IDENT:methName
+;
+
+FormsParsNoMust ::= (FormsParsNoMust1) FormsPars
+					| (NoFormsParsNoMust)
+;
+
+FormsPars ::= (FormsPars1) Type IDENT:ParName FormsParsList
+			  | (FormsPars2) Type IDENT:ParName LEFTSQUARE RIGHTSQUARE FormsParsList
+;
+
+FormsParsList ::= (FormsParsList1) FormsParsList COMMA Type IDENT:ParName 
+				  | (FormsParsList2) FormsParsList COMMA Type IDENT:ParName LEFTSQUARE RIGHTSQUARE
+				  | (NoFormsParsList)
+;
+
+StatementList ::= (StatementList1) StatementList Statement
+				   | (StatementList2) StatementList If
+				   | (NoStatementList)
+;
+
+Statement ::= (Statement1) DesignatorStatement SEMI
+			   | (Statement2) READ LPAREN Designator RPAREN SEMI
+			   | (Statement3) PRINT LPAREN Expr RPAREN SEMI
+			   | (Statement4) PRINT LPAREN Expr COMMA NUMCONST RPAREN SEMI
+			   | (If1) IF LPAREN Condition RPAREN Statement
+			   | (If2) IF LPAREN Condition RPAREN Statement Else
+			   | (ErrorStmt) error SEMI:l 
+			   {: parser.report_error("Izvrsen oporavak do ; u liniji " + lleft, null);  :}
+;
+
+DesignatorStatement ::= (DesignatorStatement) Designator DesignatorStatementMust	
+;
+
+Designator ::= (Designator1) IDENT:name
+               | (Designator2) Designator LEFTSQUARE Expr:expr RIGHTSQUARE
+               | (Designator3) LEFTSQUARE Designator:designator1 HASH Designator:designator2 RIGHTSQUARE
+;
+
+DesignatorStatementMust ::= (DesignatorStatementMust1) EQUAL Expr:expr
+							| (DesignatorStatementMust2) INCREMENT
+							| (DesignatorStatementMust3) DECREMENT
+;
+
+Expr ::= (Expr0) Expr1:expr1
+;
+
+Expr1 ::= (Expr11) Term:term AddopTermList
+		  | (Expr12) MINUS Term:term AddopTermList
+;
+
+Term ::= (Term) Factor:factor MulopFactorList
+;
+
+AddopTermList ::= (AddopTermList1) AddopTermList Addop:addop Term:term
+				   | (NoAddopTermList)
+;
+
+Factor ::= (Factor1) Designator:designator
+            | (Factor2) NUMCONST
+            | (Factor3) CHARCONST
+            | (Factor4) LPAREN Expr:expr RPAREN
+            | (Factor5) BOOLCONST
+            | (Factor6) NEW Type LEFTSQUARE Expr:expr RIGHTSQUARE
+;
+
+MulopFactorList ::= (MulopFactorList1) MulopFactorList Mulop Factor:factor
+					 | (NoMulopFactorList)
+					  
+;
+
+Mulop ::= (Mulop1) MULTIPLICATION
+		  | (Mulop2) DIVISION
+		  | (Mulop3) MODULO
+;
+
+Addop ::= (AddopPlus) PLUS 
+		   | (AddopMinus) MINUS
+;
+
+Else ::= (Else) ELSE Statement
+;  
+
+Condition ::= (Condition) CondTerm CondTermList
+;
+
+CondTermList ::= (CondTermList1) CondTermList OR CondTerm
+					| (CondTermList2)
+; 
+
+CondTerm ::=(CondTerm) CondFact CondFactList
+;
+
+CondFactList ::= (CondFactList1) CondFactList AND CondFact
+					| (CondFactList2) 
+;
+
+CondFact ::= (CondFact1) Expr
+			  | (CondFact2) Expr:first Relop Expr:second
+;
+
+Relop ::= (Relop1) ISEQUAL
+		  	| (Relop2) ISNOTEQUAL
+		 	| (Relop3) ISLOWER
+		 	| (Relop4) ISLOWEREQUAL
+		  	| (Relop5) ISGREATER
+		  	| (Relop6) ISGREATEREQUAL
+;

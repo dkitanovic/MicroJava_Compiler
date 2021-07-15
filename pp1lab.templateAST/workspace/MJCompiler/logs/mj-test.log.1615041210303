@@ -1,0 +1,55 @@
+INFO  15:32:19,672 - Compiling source file: C:\Users\pc\Desktop\PP1\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  15:32:19,733 - #7 program
+INFO  15:32:19,733 - #10 test301
+INFO  15:32:19,733 - #26 const
+INFO  15:32:19,736 - #10 int
+INFO  15:32:19,736 - #10 nula
+INFO  15:32:19,737 - #20 =
+INFO  15:32:19,738 - #29 0
+INFO  15:32:19,738 - #11 ;
+INFO  15:32:19,740 - #8 {
+INFO  15:32:19,740 - #17 void
+INFO  15:32:19,742 - #10 main
+INFO  15:32:19,742 - #27 (
+INFO  15:32:19,742 - #28 )
+INFO  15:32:19,743 - #8 {
+INFO  15:32:19,744 - #9 }
+INFO  15:32:19,745 - #9 }
+INFO  15:32:19,767 - Program(
+  ProgName(
+   test301
+  ) [ProgName]
+  DeclarationListConst(
+    NoDeclarationList(
+    ) [NoDeclarationList]
+    ConstDecl1(
+      Type(
+       int
+      ) [Type]
+     nula
+     0
+      ConstDeclList2(
+      ) [ConstDeclList2]
+    ) [ConstDecl1]
+  ) [DeclarationListConst]
+  MethodDeclList1(
+    NoMethodDeclList(
+    ) [NoMethodDeclList]
+    MethodDecl(
+      MethodDeclMustVoid(
+       main
+      ) [MethodDeclMustVoid]
+      NoFormsParsNoMust(
+      ) [NoFormsParsNoMust]
+      NoVarDeclList(
+      ) [NoVarDeclList]
+      NoStatementList(
+      ) [NoStatementList]
+    ) [MethodDecl]
+  ) [MethodDeclList1]
+) [Program]
+INFO  15:32:19,772 - ===================================
+INFO  15:32:19,777 - Deklarisana konstanta nula na liniji 5
+INFO  15:32:19,777 - Obradjuje se funkcija main na liniji 9
+INFO  15:32:19,777 - ===================================
+INFO  15:32:19,802 - Parsiranje uspesno zavrseno!

@@ -1,0 +1,1383 @@
+INFO  19:40:33,209 - Compiling source file: C:\Users\pc\Desktop\Ispiti\PP1\PP1\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  19:40:33,267 - #7 program
+INFO  19:40:33,267 - #10 test301
+INFO  19:40:33,267 - #26 const
+INFO  19:40:33,269 - #10 int
+INFO  19:40:33,269 - #10 nula
+INFO  19:40:33,270 - #20 =
+INFO  19:40:33,270 - #29 0
+INFO  19:40:33,270 - #11 ;
+INFO  19:40:33,272 - #26 const
+INFO  19:40:33,272 - #10 int
+INFO  19:40:33,272 - #10 jedan
+INFO  19:40:33,272 - #20 =
+INFO  19:40:33,272 - #29 1
+INFO  19:40:33,272 - #11 ;
+INFO  19:40:33,273 - #26 const
+INFO  19:40:33,273 - #10 int
+INFO  19:40:33,273 - #10 pet
+INFO  19:40:33,273 - #20 =
+INFO  19:40:33,273 - #29 5
+INFO  19:40:33,273 - #11 ;
+INFO  19:40:33,275 - #10 int
+INFO  19:40:33,275 - #10 niz
+INFO  19:40:33,275 - #12 [
+INFO  19:40:33,279 - #13 ]
+INFO  19:40:33,279 - #11 ;
+INFO  19:40:33,280 - #10 char
+INFO  19:40:33,280 - #10 nizch
+INFO  19:40:33,280 - #12 [
+INFO  19:40:33,280 - #13 ]
+INFO  19:40:33,280 - #11 ;
+INFO  19:40:33,280 - #8 {
+INFO  19:40:33,280 - #17 void
+INFO  19:40:33,282 - #10 main
+INFO  19:40:33,282 - #27 (
+INFO  19:40:33,283 - #28 )
+INFO  19:40:33,283 - #10 int
+INFO  19:40:33,284 - #10 bodovi
+INFO  19:40:33,284 - #11 ;
+INFO  19:40:33,284 - #8 {
+INFO  19:40:33,284 - #10 bodovi
+INFO  19:40:33,285 - #20 =
+INFO  19:40:33,285 - #29 0
+INFO  19:40:33,285 - #11 ;
+INFO  19:40:33,289 - #10 bodovi
+INFO  19:40:33,290 - #21 ++
+INFO  19:40:33,290 - #11 ;
+INFO  19:40:33,290 - #10 bodovi
+INFO  19:40:33,290 - #20 =
+INFO  19:40:33,291 - #10 bodovi
+INFO  19:40:33,291 - #2 +
+INFO  19:40:33,291 - #10 jedan
+INFO  19:40:33,292 - #11 ;
+INFO  19:40:33,293 - #10 bodovi
+INFO  19:40:33,293 - #20 =
+INFO  19:40:33,293 - #10 bodovi
+INFO  19:40:33,293 - #4 *
+INFO  19:40:33,293 - #10 pet
+INFO  19:40:33,295 - #11 ;
+INFO  19:40:33,295 - #10 bodovi
+INFO  19:40:33,295 - #22 --
+INFO  19:40:33,295 - #11 ;
+INFO  19:40:33,297 - #19 print
+INFO  19:40:33,297 - #27 (
+INFO  19:40:33,298 - #10 bodovi
+INFO  19:40:33,298 - #28 )
+INFO  19:40:33,298 - #11 ;
+INFO  19:40:33,298 - #10 niz
+INFO  19:40:33,298 - #20 =
+INFO  19:40:33,298 - #25 new
+INFO  19:40:33,299 - #10 int
+INFO  19:40:33,299 - #12 [
+INFO  19:40:33,299 - #29 3
+INFO  19:40:33,299 - #13 ]
+INFO  19:40:33,299 - #11 ;
+INFO  19:40:33,300 - #10 niz
+INFO  19:40:33,300 - #12 [
+INFO  19:40:33,300 - #10 nula
+INFO  19:40:33,300 - #13 ]
+INFO  19:40:33,301 - #20 =
+INFO  19:40:33,302 - #10 jedan
+INFO  19:40:33,302 - #11 ;
+INFO  19:40:33,302 - #10 niz
+INFO  19:40:33,303 - #12 [
+INFO  19:40:33,304 - #29 1
+INFO  19:40:33,304 - #13 ]
+INFO  19:40:33,304 - #20 =
+INFO  19:40:33,304 - #29 2
+INFO  19:40:33,305 - #11 ;
+INFO  19:40:33,305 - #10 niz
+INFO  19:40:33,305 - #12 [
+INFO  19:40:33,305 - #10 niz
+INFO  19:40:33,305 - #12 [
+INFO  19:40:33,305 - #10 jedan
+INFO  19:40:33,305 - #13 ]
+INFO  19:40:33,305 - #13 ]
+INFO  19:40:33,305 - #20 =
+INFO  19:40:33,306 - #10 niz
+INFO  19:40:33,306 - #12 [
+INFO  19:40:33,306 - #10 niz
+INFO  19:40:33,306 - #12 [
+INFO  19:40:33,306 - #29 0
+INFO  19:40:33,306 - #13 ]
+INFO  19:40:33,306 - #13 ]
+INFO  19:40:33,306 - #4 *
+INFO  19:40:33,306 - #29 3
+INFO  19:40:33,306 - #11 ;
+INFO  19:40:33,306 - #10 bodovi
+INFO  19:40:33,306 - #20 =
+INFO  19:40:33,306 - #10 niz
+INFO  19:40:33,306 - #12 [
+INFO  19:40:33,307 - #29 2
+INFO  19:40:33,307 - #13 ]
+INFO  19:40:33,307 - #5 /
+INFO  19:40:33,307 - #10 niz
+INFO  19:40:33,309 - #12 [
+INFO  19:40:33,309 - #29 0
+INFO  19:40:33,310 - #13 ]
+INFO  19:40:33,310 - #11 ;
+INFO  19:40:33,310 - #19 print
+INFO  19:40:33,310 - #27 (
+INFO  19:40:33,310 - #10 bodovi
+INFO  19:40:33,310 - #28 )
+INFO  19:40:33,310 - #11 ;
+INFO  19:40:33,310 - #19 print
+INFO  19:40:33,311 - #27 (
+INFO  19:40:33,311 - #10 niz
+INFO  19:40:33,311 - #12 [
+INFO  19:40:33,311 - #29 2
+INFO  19:40:33,311 - #13 ]
+INFO  19:40:33,311 - #28 )
+INFO  19:40:33,311 - #11 ;
+INFO  19:40:33,311 - #10 nizch
+INFO  19:40:33,311 - #20 =
+INFO  19:40:33,311 - #25 new
+INFO  19:40:33,311 - #10 char
+INFO  19:40:33,311 - #12 [
+INFO  19:40:33,312 - #29 3
+INFO  19:40:33,312 - #13 ]
+INFO  19:40:33,312 - #11 ;
+INFO  19:40:33,312 - #10 nizch
+INFO  19:40:33,312 - #12 [
+INFO  19:40:33,313 - #29 0
+INFO  19:40:33,313 - #13 ]
+INFO  19:40:33,313 - #20 =
+INFO  19:40:33,313 - #30 a
+INFO  19:40:33,313 - #11 ;
+INFO  19:40:33,313 - #10 nizch
+INFO  19:40:33,313 - #12 [
+INFO  19:40:33,313 - #10 jedan
+INFO  19:40:33,314 - #13 ]
+INFO  19:40:33,314 - #20 =
+INFO  19:40:33,314 - #30 b
+INFO  19:40:33,314 - #11 ;
+INFO  19:40:33,314 - #10 nizch
+INFO  19:40:33,314 - #12 [
+INFO  19:40:33,314 - #10 pet
+INFO  19:40:33,314 - #3 -
+INFO  19:40:33,315 - #29 3
+INFO  19:40:33,316 - #13 ]
+INFO  19:40:33,316 - #20 =
+INFO  19:40:33,316 - #30 c
+INFO  19:40:33,316 - #11 ;
+INFO  19:40:33,316 - #19 print
+INFO  19:40:33,316 - #27 (
+INFO  19:40:33,316 - #10 nizch
+INFO  19:40:33,316 - #12 [
+INFO  19:40:33,316 - #29 1
+INFO  19:40:33,317 - #13 ]
+INFO  19:40:33,317 - #28 )
+INFO  19:40:33,317 - #11 ;
+INFO  19:40:33,317 - #19 print
+INFO  19:40:33,318 - #27 (
+INFO  19:40:33,318 - #10 nizch
+INFO  19:40:33,318 - #12 [
+INFO  19:40:33,318 - #10 jedan
+INFO  19:40:33,318 - #4 *
+INFO  19:40:33,318 - #29 2
+INFO  19:40:33,318 - #13 ]
+INFO  19:40:33,318 - #28 )
+INFO  19:40:33,318 - #11 ;
+INFO  19:40:33,318 - #10 bodovi
+INFO  19:40:33,318 - #20 =
+INFO  19:40:33,318 - #10 bodovi
+INFO  19:40:33,318 - #2 +
+INFO  19:40:33,318 - #27 (
+INFO  19:40:33,318 - #10 pet
+INFO  19:40:33,318 - #4 *
+INFO  19:40:33,321 - #10 jedan
+INFO  19:40:33,321 - #3 -
+INFO  19:40:33,321 - #29 1
+INFO  19:40:33,322 - #28 )
+INFO  19:40:33,322 - #4 *
+INFO  19:40:33,323 - #10 bodovi
+INFO  19:40:33,324 - #3 -
+INFO  19:40:33,324 - #27 (
+INFO  19:40:33,324 - #29 3
+INFO  19:40:33,336 - #6 %
+INFO  19:40:33,336 - #29 2
+INFO  19:40:33,337 - #2 +
+INFO  19:40:33,337 - #29 3
+INFO  19:40:33,337 - #4 *
+INFO  19:40:33,337 - #29 2
+INFO  19:40:33,337 - #3 -
+INFO  19:40:33,338 - #29 3
+INFO  19:40:33,338 - #28 )
+INFO  19:40:33,338 - #11 ;
+INFO  19:40:33,338 - #19 print
+INFO  19:40:33,338 - #27 (
+INFO  19:40:33,338 - #10 bodovi
+INFO  19:40:33,339 - #28 )
+INFO  19:40:33,339 - #11 ;
+INFO  19:40:33,339 - #32 if
+INFO  19:40:33,339 - #27 (
+INFO  19:40:33,339 - #10 bodovi
+INFO  19:40:33,339 - #6 %
+INFO  19:40:33,339 - #29 2
+INFO  19:40:33,339 - #34 ==
+INFO  19:40:33,340 - #29 0
+INFO  19:40:33,342 - #28 )
+INFO  19:40:33,347 - #10 bodovi
+INFO  19:40:33,348 - #20 =
+INFO  19:40:33,348 - #10 bodovi
+INFO  19:40:33,348 - #2 +
+INFO  19:40:33,348 - #29 10
+INFO  19:40:33,348 - #11 ;
+INFO  19:40:33,348 - #32 if
+INFO  19:40:33,349 - #27 (
+INFO  19:40:33,349 - #31 false
+INFO  19:40:33,349 - #28 )
+INFO  19:40:33,349 - #19 print
+INFO  19:40:33,349 - #27 (
+INFO  19:40:33,350 - #10 bodovi
+INFO  19:40:33,350 - #2 +
+INFO  19:40:33,350 - #29 20
+INFO  19:40:33,350 - #28 )
+INFO  19:40:33,350 - #11 ;
+INFO  19:40:33,350 - #33 else
+INFO  19:40:33,350 - #19 print
+INFO  19:40:33,350 - #27 (
+INFO  19:40:33,351 - #10 bodovi
+INFO  19:40:33,351 - #28 )
+INFO  19:40:33,351 - #11 ;
+INFO  19:40:33,351 - #9 }
+INFO  19:40:33,354 - #9 }
+INFO  19:40:33,390 - Program(
+  ProgName(
+   test301
+  ) [ProgName]
+  DeclarationListVar(
+    DeclarationListVar(
+      DeclarationListConst(
+        DeclarationListConst(
+          DeclarationListConst(
+            NoDeclarationList(
+            ) [NoDeclarationList]
+            ConstDecl1(
+              Type(
+               int
+              ) [Type]
+             nula
+             0
+              ConstDeclList2(
+              ) [ConstDeclList2]
+            ) [ConstDecl1]
+          ) [DeclarationListConst]
+          ConstDecl1(
+            Type(
+             int
+            ) [Type]
+           jedan
+           1
+            ConstDeclList2(
+            ) [ConstDeclList2]
+          ) [ConstDecl1]
+        ) [DeclarationListConst]
+        ConstDecl1(
+          Type(
+           int
+          ) [Type]
+         pet
+         5
+          ConstDeclList2(
+          ) [ConstDeclList2]
+        ) [ConstDecl1]
+      ) [DeclarationListConst]
+      VarDecl2(
+        Type(
+         int
+        ) [Type]
+       niz
+        NoVarDeclNoMustList(
+        ) [NoVarDeclNoMustList]
+      ) [VarDecl2]
+    ) [DeclarationListVar]
+    VarDecl2(
+      Type(
+       char
+      ) [Type]
+     nizch
+      NoVarDeclNoMustList(
+      ) [NoVarDeclNoMustList]
+    ) [VarDecl2]
+  ) [DeclarationListVar]
+  MethodDeclList1(
+    NoMethodDeclList(
+    ) [NoMethodDeclList]
+    MethodDecl(
+      MethodDeclMustVoid(
+       main
+      ) [MethodDeclMustVoid]
+      NoFormsParsNoMust(
+      ) [NoFormsParsNoMust]
+      VarDeclList1(
+        NoVarDeclList(
+        ) [NoVarDeclList]
+        VarDecl1(
+          Type(
+           int
+          ) [Type]
+         bodovi
+          NoVarDeclNoMustList(
+          ) [NoVarDeclNoMustList]
+        ) [VarDecl1]
+      ) [VarDeclList1]
+      StatementList2(
+        StatementList2(
+          StatementList1(
+            StatementList1(
+              StatementList1(
+                StatementList1(
+                  StatementList1(
+                    StatementList1(
+                      StatementList1(
+                        StatementList1(
+                          StatementList1(
+                            StatementList1(
+                              StatementList1(
+                                StatementList1(
+                                  StatementList1(
+                                    StatementList1(
+                                      StatementList1(
+                                        StatementList1(
+                                          StatementList1(
+                                            StatementList1(
+                                              StatementList1(
+                                                StatementList1(
+                                                  StatementList1(
+                                                    NoStatementList(
+                                                    ) [NoStatementList]
+                                                    Statement1(
+                                                      DesignatorStatement(
+                                                        Designator1(
+                                                         bodovi
+                                                        ) [Designator1]
+                                                        DesignatorStatementMust1(
+                                                          Expr0(
+                                                            Expr11(
+                                                              Term(
+                                                                Factor2(
+                                                                 0
+                                                                ) [Factor2]
+                                                                NoMulopFactorList(
+                                                                ) [NoMulopFactorList]
+                                                              ) [Term]
+                                                              NoAddopTermList(
+                                                              ) [NoAddopTermList]
+                                                            ) [Expr11]
+                                                          ) [Expr0]
+                                                        ) [DesignatorStatementMust1]
+                                                      ) [DesignatorStatement]
+                                                    ) [Statement1]
+                                                  ) [StatementList1]
+                                                  Statement1(
+                                                    DesignatorStatement(
+                                                      Designator1(
+                                                       bodovi
+                                                      ) [Designator1]
+                                                      DesignatorStatementMust2(
+                                                      ) [DesignatorStatementMust2]
+                                                    ) [DesignatorStatement]
+                                                  ) [Statement1]
+                                                ) [StatementList1]
+                                                Statement1(
+                                                  DesignatorStatement(
+                                                    Designator1(
+                                                     bodovi
+                                                    ) [Designator1]
+                                                    DesignatorStatementMust1(
+                                                      Expr0(
+                                                        Expr11(
+                                                          Term(
+                                                            Factor1(
+                                                              Designator1(
+                                                               bodovi
+                                                              ) [Designator1]
+                                                            ) [Factor1]
+                                                            NoMulopFactorList(
+                                                            ) [NoMulopFactorList]
+                                                          ) [Term]
+                                                          AddopTermList1(
+                                                            NoAddopTermList(
+                                                            ) [NoAddopTermList]
+                                                            AddopPlus(
+                                                            ) [AddopPlus]
+                                                            Term(
+                                                              Factor1(
+                                                                Designator1(
+                                                                 jedan
+                                                                ) [Designator1]
+                                                              ) [Factor1]
+                                                              NoMulopFactorList(
+                                                              ) [NoMulopFactorList]
+                                                            ) [Term]
+                                                          ) [AddopTermList1]
+                                                        ) [Expr11]
+                                                      ) [Expr0]
+                                                    ) [DesignatorStatementMust1]
+                                                  ) [DesignatorStatement]
+                                                ) [Statement1]
+                                              ) [StatementList1]
+                                              Statement1(
+                                                DesignatorStatement(
+                                                  Designator1(
+                                                   bodovi
+                                                  ) [Designator1]
+                                                  DesignatorStatementMust1(
+                                                    Expr0(
+                                                      Expr11(
+                                                        Term(
+                                                          Factor1(
+                                                            Designator1(
+                                                             bodovi
+                                                            ) [Designator1]
+                                                          ) [Factor1]
+                                                          MulopFactorList1(
+                                                            NoMulopFactorList(
+                                                            ) [NoMulopFactorList]
+                                                            Mulop1(
+                                                            ) [Mulop1]
+                                                            Factor1(
+                                                              Designator1(
+                                                               pet
+                                                              ) [Designator1]
+                                                            ) [Factor1]
+                                                          ) [MulopFactorList1]
+                                                        ) [Term]
+                                                        NoAddopTermList(
+                                                        ) [NoAddopTermList]
+                                                      ) [Expr11]
+                                                    ) [Expr0]
+                                                  ) [DesignatorStatementMust1]
+                                                ) [DesignatorStatement]
+                                              ) [Statement1]
+                                            ) [StatementList1]
+                                            Statement1(
+                                              DesignatorStatement(
+                                                Designator1(
+                                                 bodovi
+                                                ) [Designator1]
+                                                DesignatorStatementMust3(
+                                                ) [DesignatorStatementMust3]
+                                              ) [DesignatorStatement]
+                                            ) [Statement1]
+                                          ) [StatementList1]
+                                          Statement3(
+                                            Expr0(
+                                              Expr11(
+                                                Term(
+                                                  Factor1(
+                                                    Designator1(
+                                                     bodovi
+                                                    ) [Designator1]
+                                                  ) [Factor1]
+                                                  NoMulopFactorList(
+                                                  ) [NoMulopFactorList]
+                                                ) [Term]
+                                                NoAddopTermList(
+                                                ) [NoAddopTermList]
+                                              ) [Expr11]
+                                            ) [Expr0]
+                                          ) [Statement3]
+                                        ) [StatementList1]
+                                        Statement1(
+                                          DesignatorStatement(
+                                            Designator1(
+                                             niz
+                                            ) [Designator1]
+                                            DesignatorStatementMust1(
+                                              Expr0(
+                                                Expr11(
+                                                  Term(
+                                                    Factor6(
+                                                      Type(
+                                                       int
+                                                      ) [Type]
+                                                      Expr0(
+                                                        Expr11(
+                                                          Term(
+                                                            Factor2(
+                                                             3
+                                                            ) [Factor2]
+                                                            NoMulopFactorList(
+                                                            ) [NoMulopFactorList]
+                                                          ) [Term]
+                                                          NoAddopTermList(
+                                                          ) [NoAddopTermList]
+                                                        ) [Expr11]
+                                                      ) [Expr0]
+                                                    ) [Factor6]
+                                                    NoMulopFactorList(
+                                                    ) [NoMulopFactorList]
+                                                  ) [Term]
+                                                  NoAddopTermList(
+                                                  ) [NoAddopTermList]
+                                                ) [Expr11]
+                                              ) [Expr0]
+                                            ) [DesignatorStatementMust1]
+                                          ) [DesignatorStatement]
+                                        ) [Statement1]
+                                      ) [StatementList1]
+                                      Statement1(
+                                        DesignatorStatement(
+                                          Designator2(
+                                            Designator1(
+                                             niz
+                                            ) [Designator1]
+                                            Expr0(
+                                              Expr11(
+                                                Term(
+                                                  Factor1(
+                                                    Designator1(
+                                                     nula
+                                                    ) [Designator1]
+                                                  ) [Factor1]
+                                                  NoMulopFactorList(
+                                                  ) [NoMulopFactorList]
+                                                ) [Term]
+                                                NoAddopTermList(
+                                                ) [NoAddopTermList]
+                                              ) [Expr11]
+                                            ) [Expr0]
+                                          ) [Designator2]
+                                          DesignatorStatementMust1(
+                                            Expr0(
+                                              Expr11(
+                                                Term(
+                                                  Factor1(
+                                                    Designator1(
+                                                     jedan
+                                                    ) [Designator1]
+                                                  ) [Factor1]
+                                                  NoMulopFactorList(
+                                                  ) [NoMulopFactorList]
+                                                ) [Term]
+                                                NoAddopTermList(
+                                                ) [NoAddopTermList]
+                                              ) [Expr11]
+                                            ) [Expr0]
+                                          ) [DesignatorStatementMust1]
+                                        ) [DesignatorStatement]
+                                      ) [Statement1]
+                                    ) [StatementList1]
+                                    Statement1(
+                                      DesignatorStatement(
+                                        Designator2(
+                                          Designator1(
+                                           niz
+                                          ) [Designator1]
+                                          Expr0(
+                                            Expr11(
+                                              Term(
+                                                Factor2(
+                                                 1
+                                                ) [Factor2]
+                                                NoMulopFactorList(
+                                                ) [NoMulopFactorList]
+                                              ) [Term]
+                                              NoAddopTermList(
+                                              ) [NoAddopTermList]
+                                            ) [Expr11]
+                                          ) [Expr0]
+                                        ) [Designator2]
+                                        DesignatorStatementMust1(
+                                          Expr0(
+                                            Expr11(
+                                              Term(
+                                                Factor2(
+                                                 2
+                                                ) [Factor2]
+                                                NoMulopFactorList(
+                                                ) [NoMulopFactorList]
+                                              ) [Term]
+                                              NoAddopTermList(
+                                              ) [NoAddopTermList]
+                                            ) [Expr11]
+                                          ) [Expr0]
+                                        ) [DesignatorStatementMust1]
+                                      ) [DesignatorStatement]
+                                    ) [Statement1]
+                                  ) [StatementList1]
+                                  Statement1(
+                                    DesignatorStatement(
+                                      Designator2(
+                                        Designator1(
+                                         niz
+                                        ) [Designator1]
+                                        Expr0(
+                                          Expr11(
+                                            Term(
+                                              Factor1(
+                                                Designator2(
+                                                  Designator1(
+                                                   niz
+                                                  ) [Designator1]
+                                                  Expr0(
+                                                    Expr11(
+                                                      Term(
+                                                        Factor1(
+                                                          Designator1(
+                                                           jedan
+                                                          ) [Designator1]
+                                                        ) [Factor1]
+                                                        NoMulopFactorList(
+                                                        ) [NoMulopFactorList]
+                                                      ) [Term]
+                                                      NoAddopTermList(
+                                                      ) [NoAddopTermList]
+                                                    ) [Expr11]
+                                                  ) [Expr0]
+                                                ) [Designator2]
+                                              ) [Factor1]
+                                              NoMulopFactorList(
+                                              ) [NoMulopFactorList]
+                                            ) [Term]
+                                            NoAddopTermList(
+                                            ) [NoAddopTermList]
+                                          ) [Expr11]
+                                        ) [Expr0]
+                                      ) [Designator2]
+                                      DesignatorStatementMust1(
+                                        Expr0(
+                                          Expr11(
+                                            Term(
+                                              Factor1(
+                                                Designator2(
+                                                  Designator1(
+                                                   niz
+                                                  ) [Designator1]
+                                                  Expr0(
+                                                    Expr11(
+                                                      Term(
+                                                        Factor1(
+                                                          Designator2(
+                                                            Designator1(
+                                                             niz
+                                                            ) [Designator1]
+                                                            Expr0(
+                                                              Expr11(
+                                                                Term(
+                                                                  Factor2(
+                                                                   0
+                                                                  ) [Factor2]
+                                                                  NoMulopFactorList(
+                                                                  ) [NoMulopFactorList]
+                                                                ) [Term]
+                                                                NoAddopTermList(
+                                                                ) [NoAddopTermList]
+                                                              ) [Expr11]
+                                                            ) [Expr0]
+                                                          ) [Designator2]
+                                                        ) [Factor1]
+                                                        NoMulopFactorList(
+                                                        ) [NoMulopFactorList]
+                                                      ) [Term]
+                                                      NoAddopTermList(
+                                                      ) [NoAddopTermList]
+                                                    ) [Expr11]
+                                                  ) [Expr0]
+                                                ) [Designator2]
+                                              ) [Factor1]
+                                              MulopFactorList1(
+                                                NoMulopFactorList(
+                                                ) [NoMulopFactorList]
+                                                Mulop1(
+                                                ) [Mulop1]
+                                                Factor2(
+                                                 3
+                                                ) [Factor2]
+                                              ) [MulopFactorList1]
+                                            ) [Term]
+                                            NoAddopTermList(
+                                            ) [NoAddopTermList]
+                                          ) [Expr11]
+                                        ) [Expr0]
+                                      ) [DesignatorStatementMust1]
+                                    ) [DesignatorStatement]
+                                  ) [Statement1]
+                                ) [StatementList1]
+                                Statement1(
+                                  DesignatorStatement(
+                                    Designator1(
+                                     bodovi
+                                    ) [Designator1]
+                                    DesignatorStatementMust1(
+                                      Expr0(
+                                        Expr11(
+                                          Term(
+                                            Factor1(
+                                              Designator2(
+                                                Designator1(
+                                                 niz
+                                                ) [Designator1]
+                                                Expr0(
+                                                  Expr11(
+                                                    Term(
+                                                      Factor2(
+                                                       2
+                                                      ) [Factor2]
+                                                      NoMulopFactorList(
+                                                      ) [NoMulopFactorList]
+                                                    ) [Term]
+                                                    NoAddopTermList(
+                                                    ) [NoAddopTermList]
+                                                  ) [Expr11]
+                                                ) [Expr0]
+                                              ) [Designator2]
+                                            ) [Factor1]
+                                            MulopFactorList1(
+                                              NoMulopFactorList(
+                                              ) [NoMulopFactorList]
+                                              Mulop2(
+                                              ) [Mulop2]
+                                              Factor1(
+                                                Designator2(
+                                                  Designator1(
+                                                   niz
+                                                  ) [Designator1]
+                                                  Expr0(
+                                                    Expr11(
+                                                      Term(
+                                                        Factor2(
+                                                         0
+                                                        ) [Factor2]
+                                                        NoMulopFactorList(
+                                                        ) [NoMulopFactorList]
+                                                      ) [Term]
+                                                      NoAddopTermList(
+                                                      ) [NoAddopTermList]
+                                                    ) [Expr11]
+                                                  ) [Expr0]
+                                                ) [Designator2]
+                                              ) [Factor1]
+                                            ) [MulopFactorList1]
+                                          ) [Term]
+                                          NoAddopTermList(
+                                          ) [NoAddopTermList]
+                                        ) [Expr11]
+                                      ) [Expr0]
+                                    ) [DesignatorStatementMust1]
+                                  ) [DesignatorStatement]
+                                ) [Statement1]
+                              ) [StatementList1]
+                              Statement3(
+                                Expr0(
+                                  Expr11(
+                                    Term(
+                                      Factor1(
+                                        Designator1(
+                                         bodovi
+                                        ) [Designator1]
+                                      ) [Factor1]
+                                      NoMulopFactorList(
+                                      ) [NoMulopFactorList]
+                                    ) [Term]
+                                    NoAddopTermList(
+                                    ) [NoAddopTermList]
+                                  ) [Expr11]
+                                ) [Expr0]
+                              ) [Statement3]
+                            ) [StatementList1]
+                            Statement3(
+                              Expr0(
+                                Expr11(
+                                  Term(
+                                    Factor1(
+                                      Designator2(
+                                        Designator1(
+                                         niz
+                                        ) [Designator1]
+                                        Expr0(
+                                          Expr11(
+                                            Term(
+                                              Factor2(
+                                               2
+                                              ) [Factor2]
+                                              NoMulopFactorList(
+                                              ) [NoMulopFactorList]
+                                            ) [Term]
+                                            NoAddopTermList(
+                                            ) [NoAddopTermList]
+                                          ) [Expr11]
+                                        ) [Expr0]
+                                      ) [Designator2]
+                                    ) [Factor1]
+                                    NoMulopFactorList(
+                                    ) [NoMulopFactorList]
+                                  ) [Term]
+                                  NoAddopTermList(
+                                  ) [NoAddopTermList]
+                                ) [Expr11]
+                              ) [Expr0]
+                            ) [Statement3]
+                          ) [StatementList1]
+                          Statement1(
+                            DesignatorStatement(
+                              Designator1(
+                               nizch
+                              ) [Designator1]
+                              DesignatorStatementMust1(
+                                Expr0(
+                                  Expr11(
+                                    Term(
+                                      Factor6(
+                                        Type(
+                                         char
+                                        ) [Type]
+                                        Expr0(
+                                          Expr11(
+                                            Term(
+                                              Factor2(
+                                               3
+                                              ) [Factor2]
+                                              NoMulopFactorList(
+                                              ) [NoMulopFactorList]
+                                            ) [Term]
+                                            NoAddopTermList(
+                                            ) [NoAddopTermList]
+                                          ) [Expr11]
+                                        ) [Expr0]
+                                      ) [Factor6]
+                                      NoMulopFactorList(
+                                      ) [NoMulopFactorList]
+                                    ) [Term]
+                                    NoAddopTermList(
+                                    ) [NoAddopTermList]
+                                  ) [Expr11]
+                                ) [Expr0]
+                              ) [DesignatorStatementMust1]
+                            ) [DesignatorStatement]
+                          ) [Statement1]
+                        ) [StatementList1]
+                        Statement1(
+                          DesignatorStatement(
+                            Designator2(
+                              Designator1(
+                               nizch
+                              ) [Designator1]
+                              Expr0(
+                                Expr11(
+                                  Term(
+                                    Factor2(
+                                     0
+                                    ) [Factor2]
+                                    NoMulopFactorList(
+                                    ) [NoMulopFactorList]
+                                  ) [Term]
+                                  NoAddopTermList(
+                                  ) [NoAddopTermList]
+                                ) [Expr11]
+                              ) [Expr0]
+                            ) [Designator2]
+                            DesignatorStatementMust1(
+                              Expr0(
+                                Expr11(
+                                  Term(
+                                    Factor3(
+                                     a
+                                    ) [Factor3]
+                                    NoMulopFactorList(
+                                    ) [NoMulopFactorList]
+                                  ) [Term]
+                                  NoAddopTermList(
+                                  ) [NoAddopTermList]
+                                ) [Expr11]
+                              ) [Expr0]
+                            ) [DesignatorStatementMust1]
+                          ) [DesignatorStatement]
+                        ) [Statement1]
+                      ) [StatementList1]
+                      Statement1(
+                        DesignatorStatement(
+                          Designator2(
+                            Designator1(
+                             nizch
+                            ) [Designator1]
+                            Expr0(
+                              Expr11(
+                                Term(
+                                  Factor1(
+                                    Designator1(
+                                     jedan
+                                    ) [Designator1]
+                                  ) [Factor1]
+                                  NoMulopFactorList(
+                                  ) [NoMulopFactorList]
+                                ) [Term]
+                                NoAddopTermList(
+                                ) [NoAddopTermList]
+                              ) [Expr11]
+                            ) [Expr0]
+                          ) [Designator2]
+                          DesignatorStatementMust1(
+                            Expr0(
+                              Expr11(
+                                Term(
+                                  Factor3(
+                                   b
+                                  ) [Factor3]
+                                  NoMulopFactorList(
+                                  ) [NoMulopFactorList]
+                                ) [Term]
+                                NoAddopTermList(
+                                ) [NoAddopTermList]
+                              ) [Expr11]
+                            ) [Expr0]
+                          ) [DesignatorStatementMust1]
+                        ) [DesignatorStatement]
+                      ) [Statement1]
+                    ) [StatementList1]
+                    Statement1(
+                      DesignatorStatement(
+                        Designator2(
+                          Designator1(
+                           nizch
+                          ) [Designator1]
+                          Expr0(
+                            Expr11(
+                              Term(
+                                Factor1(
+                                  Designator1(
+                                   pet
+                                  ) [Designator1]
+                                ) [Factor1]
+                                NoMulopFactorList(
+                                ) [NoMulopFactorList]
+                              ) [Term]
+                              AddopTermList1(
+                                NoAddopTermList(
+                                ) [NoAddopTermList]
+                                AddopMinus(
+                                ) [AddopMinus]
+                                Term(
+                                  Factor2(
+                                   3
+                                  ) [Factor2]
+                                  NoMulopFactorList(
+                                  ) [NoMulopFactorList]
+                                ) [Term]
+                              ) [AddopTermList1]
+                            ) [Expr11]
+                          ) [Expr0]
+                        ) [Designator2]
+                        DesignatorStatementMust1(
+                          Expr0(
+                            Expr11(
+                              Term(
+                                Factor3(
+                                 c
+                                ) [Factor3]
+                                NoMulopFactorList(
+                                ) [NoMulopFactorList]
+                              ) [Term]
+                              NoAddopTermList(
+                              ) [NoAddopTermList]
+                            ) [Expr11]
+                          ) [Expr0]
+                        ) [DesignatorStatementMust1]
+                      ) [DesignatorStatement]
+                    ) [Statement1]
+                  ) [StatementList1]
+                  Statement3(
+                    Expr0(
+                      Expr11(
+                        Term(
+                          Factor1(
+                            Designator2(
+                              Designator1(
+                               nizch
+                              ) [Designator1]
+                              Expr0(
+                                Expr11(
+                                  Term(
+                                    Factor2(
+                                     1
+                                    ) [Factor2]
+                                    NoMulopFactorList(
+                                    ) [NoMulopFactorList]
+                                  ) [Term]
+                                  NoAddopTermList(
+                                  ) [NoAddopTermList]
+                                ) [Expr11]
+                              ) [Expr0]
+                            ) [Designator2]
+                          ) [Factor1]
+                          NoMulopFactorList(
+                          ) [NoMulopFactorList]
+                        ) [Term]
+                        NoAddopTermList(
+                        ) [NoAddopTermList]
+                      ) [Expr11]
+                    ) [Expr0]
+                  ) [Statement3]
+                ) [StatementList1]
+                Statement3(
+                  Expr0(
+                    Expr11(
+                      Term(
+                        Factor1(
+                          Designator2(
+                            Designator1(
+                             nizch
+                            ) [Designator1]
+                            Expr0(
+                              Expr11(
+                                Term(
+                                  Factor1(
+                                    Designator1(
+                                     jedan
+                                    ) [Designator1]
+                                  ) [Factor1]
+                                  MulopFactorList1(
+                                    NoMulopFactorList(
+                                    ) [NoMulopFactorList]
+                                    Mulop1(
+                                    ) [Mulop1]
+                                    Factor2(
+                                     2
+                                    ) [Factor2]
+                                  ) [MulopFactorList1]
+                                ) [Term]
+                                NoAddopTermList(
+                                ) [NoAddopTermList]
+                              ) [Expr11]
+                            ) [Expr0]
+                          ) [Designator2]
+                        ) [Factor1]
+                        NoMulopFactorList(
+                        ) [NoMulopFactorList]
+                      ) [Term]
+                      NoAddopTermList(
+                      ) [NoAddopTermList]
+                    ) [Expr11]
+                  ) [Expr0]
+                ) [Statement3]
+              ) [StatementList1]
+              Statement1(
+                DesignatorStatement(
+                  Designator1(
+                   bodovi
+                  ) [Designator1]
+                  DesignatorStatementMust1(
+                    Expr0(
+                      Expr11(
+                        Term(
+                          Factor1(
+                            Designator1(
+                             bodovi
+                            ) [Designator1]
+                          ) [Factor1]
+                          NoMulopFactorList(
+                          ) [NoMulopFactorList]
+                        ) [Term]
+                        AddopTermList1(
+                          AddopTermList1(
+                            NoAddopTermList(
+                            ) [NoAddopTermList]
+                            AddopPlus(
+                            ) [AddopPlus]
+                            Term(
+                              Factor4(
+                                Expr0(
+                                  Expr11(
+                                    Term(
+                                      Factor1(
+                                        Designator1(
+                                         pet
+                                        ) [Designator1]
+                                      ) [Factor1]
+                                      MulopFactorList1(
+                                        NoMulopFactorList(
+                                        ) [NoMulopFactorList]
+                                        Mulop1(
+                                        ) [Mulop1]
+                                        Factor1(
+                                          Designator1(
+                                           jedan
+                                          ) [Designator1]
+                                        ) [Factor1]
+                                      ) [MulopFactorList1]
+                                    ) [Term]
+                                    AddopTermList1(
+                                      NoAddopTermList(
+                                      ) [NoAddopTermList]
+                                      AddopMinus(
+                                      ) [AddopMinus]
+                                      Term(
+                                        Factor2(
+                                         1
+                                        ) [Factor2]
+                                        NoMulopFactorList(
+                                        ) [NoMulopFactorList]
+                                      ) [Term]
+                                    ) [AddopTermList1]
+                                  ) [Expr11]
+                                ) [Expr0]
+                              ) [Factor4]
+                              MulopFactorList1(
+                                NoMulopFactorList(
+                                ) [NoMulopFactorList]
+                                Mulop1(
+                                ) [Mulop1]
+                                Factor1(
+                                  Designator1(
+                                   bodovi
+                                  ) [Designator1]
+                                ) [Factor1]
+                              ) [MulopFactorList1]
+                            ) [Term]
+                          ) [AddopTermList1]
+                          AddopMinus(
+                          ) [AddopMinus]
+                          Term(
+                            Factor4(
+                              Expr0(
+                                Expr11(
+                                  Term(
+                                    Factor2(
+                                     3
+                                    ) [Factor2]
+                                    MulopFactorList1(
+                                      NoMulopFactorList(
+                                      ) [NoMulopFactorList]
+                                      Mulop3(
+                                      ) [Mulop3]
+                                      Factor2(
+                                       2
+                                      ) [Factor2]
+                                    ) [MulopFactorList1]
+                                  ) [Term]
+                                  AddopTermList1(
+                                    AddopTermList1(
+                                      NoAddopTermList(
+                                      ) [NoAddopTermList]
+                                      AddopPlus(
+                                      ) [AddopPlus]
+                                      Term(
+                                        Factor2(
+                                         3
+                                        ) [Factor2]
+                                        MulopFactorList1(
+                                          NoMulopFactorList(
+                                          ) [NoMulopFactorList]
+                                          Mulop1(
+                                          ) [Mulop1]
+                                          Factor2(
+                                           2
+                                          ) [Factor2]
+                                        ) [MulopFactorList1]
+                                      ) [Term]
+                                    ) [AddopTermList1]
+                                    AddopMinus(
+                                    ) [AddopMinus]
+                                    Term(
+                                      Factor2(
+                                       3
+                                      ) [Factor2]
+                                      NoMulopFactorList(
+                                      ) [NoMulopFactorList]
+                                    ) [Term]
+                                  ) [AddopTermList1]
+                                ) [Expr11]
+                              ) [Expr0]
+                            ) [Factor4]
+                            NoMulopFactorList(
+                            ) [NoMulopFactorList]
+                          ) [Term]
+                        ) [AddopTermList1]
+                      ) [Expr11]
+                    ) [Expr0]
+                  ) [DesignatorStatementMust1]
+                ) [DesignatorStatement]
+              ) [Statement1]
+            ) [StatementList1]
+            Statement3(
+              Expr0(
+                Expr11(
+                  Term(
+                    Factor1(
+                      Designator1(
+                       bodovi
+                      ) [Designator1]
+                    ) [Factor1]
+                    NoMulopFactorList(
+                    ) [NoMulopFactorList]
+                  ) [Term]
+                  NoAddopTermList(
+                  ) [NoAddopTermList]
+                ) [Expr11]
+              ) [Expr0]
+            ) [Statement3]
+          ) [StatementList1]
+          If1(
+            Condition(
+              CondTerm(
+                CondFact2(
+                  Expr0(
+                    Expr11(
+                      Term(
+                        Factor1(
+                          Designator1(
+                           bodovi
+                          ) [Designator1]
+                        ) [Factor1]
+                        MulopFactorList1(
+                          NoMulopFactorList(
+                          ) [NoMulopFactorList]
+                          Mulop3(
+                          ) [Mulop3]
+                          Factor2(
+                           2
+                          ) [Factor2]
+                        ) [MulopFactorList1]
+                      ) [Term]
+                      NoAddopTermList(
+                      ) [NoAddopTermList]
+                    ) [Expr11]
+                  ) [Expr0]
+                  Relop1(
+                  ) [Relop1]
+                  Expr0(
+                    Expr11(
+                      Term(
+                        Factor2(
+                         0
+                        ) [Factor2]
+                        NoMulopFactorList(
+                        ) [NoMulopFactorList]
+                      ) [Term]
+                      NoAddopTermList(
+                      ) [NoAddopTermList]
+                    ) [Expr11]
+                  ) [Expr0]
+                ) [CondFact2]
+                CondFactList2(
+                ) [CondFactList2]
+              ) [CondTerm]
+              CondTermList2(
+              ) [CondTermList2]
+            ) [Condition]
+            Statement1(
+              DesignatorStatement(
+                Designator1(
+                 bodovi
+                ) [Designator1]
+                DesignatorStatementMust1(
+                  Expr0(
+                    Expr11(
+                      Term(
+                        Factor1(
+                          Designator1(
+                           bodovi
+                          ) [Designator1]
+                        ) [Factor1]
+                        NoMulopFactorList(
+                        ) [NoMulopFactorList]
+                      ) [Term]
+                      AddopTermList1(
+                        NoAddopTermList(
+                        ) [NoAddopTermList]
+                        AddopPlus(
+                        ) [AddopPlus]
+                        Term(
+                          Factor2(
+                           10
+                          ) [Factor2]
+                          NoMulopFactorList(
+                          ) [NoMulopFactorList]
+                        ) [Term]
+                      ) [AddopTermList1]
+                    ) [Expr11]
+                  ) [Expr0]
+                ) [DesignatorStatementMust1]
+              ) [DesignatorStatement]
+            ) [Statement1]
+          ) [If1]
+        ) [StatementList2]
+        If2(
+          Condition(
+            CondTerm(
+              CondFact1(
+                Expr0(
+                  Expr11(
+                    Term(
+                      Factor5(
+                       false
+                      ) [Factor5]
+                      NoMulopFactorList(
+                      ) [NoMulopFactorList]
+                    ) [Term]
+                    NoAddopTermList(
+                    ) [NoAddopTermList]
+                  ) [Expr11]
+                ) [Expr0]
+              ) [CondFact1]
+              CondFactList2(
+              ) [CondFactList2]
+            ) [CondTerm]
+            CondTermList2(
+            ) [CondTermList2]
+          ) [Condition]
+          Statement3(
+            Expr0(
+              Expr11(
+                Term(
+                  Factor1(
+                    Designator1(
+                     bodovi
+                    ) [Designator1]
+                  ) [Factor1]
+                  NoMulopFactorList(
+                  ) [NoMulopFactorList]
+                ) [Term]
+                AddopTermList1(
+                  NoAddopTermList(
+                  ) [NoAddopTermList]
+                  AddopPlus(
+                  ) [AddopPlus]
+                  Term(
+                    Factor2(
+                     20
+                    ) [Factor2]
+                    NoMulopFactorList(
+                    ) [NoMulopFactorList]
+                  ) [Term]
+                ) [AddopTermList1]
+              ) [Expr11]
+            ) [Expr0]
+          ) [Statement3]
+          Else(
+            Statement3(
+              Expr0(
+                Expr11(
+                  Term(
+                    Factor1(
+                      Designator1(
+                       bodovi
+                      ) [Designator1]
+                    ) [Factor1]
+                    NoMulopFactorList(
+                    ) [NoMulopFactorList]
+                  ) [Term]
+                  NoAddopTermList(
+                  ) [NoAddopTermList]
+                ) [Expr11]
+              ) [Expr0]
+            ) [Statement3]
+          ) [Else]
+        ) [If2]
+      ) [StatementList2]
+    ) [MethodDecl]
+  ) [MethodDeclList1]
+) [Program]
+INFO  19:40:33,395 - ===================================
+INFO  19:40:33,403 - Deklarisana konstanta nula na liniji 5
+INFO  19:40:33,403 - Deklarisana konstanta jedan na liniji 6
+INFO  19:40:33,403 - Deklarisana konstanta pet na liniji 7
+INFO  19:40:33,408 - Deklarisana promenljiva niz na liniji 9
+INFO  19:40:33,408 - Deklarisana promenljiva nizch na liniji 10
+INFO  19:40:33,409 - Obradjuje se funkcija main na liniji 13
+INFO  19:40:33,409 - Deklarisana promenljiva bodovi na liniji 14
+INFO  19:40:33,411 - ===================================
+INFO  19:40:33,433 - Parsiranje uspesno zavrseno!

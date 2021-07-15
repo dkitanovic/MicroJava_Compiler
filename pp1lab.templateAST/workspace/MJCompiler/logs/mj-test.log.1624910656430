@@ -1,0 +1,281 @@
+INFO  22:03:31,578 - Compiling source file: C:\Users\pc\Desktop\Ispiti\PP1\PP1\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  22:03:31,667 - #7 program
+INFO  22:03:31,668 - #10 test301
+INFO  22:03:31,668 - #26 const
+INFO  22:03:31,670 - #10 int
+INFO  22:03:31,670 - #10 nula
+INFO  22:03:31,671 - #20 =
+INFO  22:03:31,671 - #29 0
+INFO  22:03:31,672 - #11 ;
+INFO  22:03:31,672 - #26 const
+INFO  22:03:31,673 - #10 int
+INFO  22:03:31,674 - #10 jedan
+INFO  22:03:31,674 - #20 =
+INFO  22:03:31,674 - #29 1
+INFO  22:03:31,674 - #11 ;
+INFO  22:03:31,674 - #26 const
+INFO  22:03:31,675 - #10 int
+INFO  22:03:31,675 - #10 pet
+INFO  22:03:31,675 - #20 =
+INFO  22:03:31,675 - #29 5
+INFO  22:03:31,675 - #11 ;
+INFO  22:03:31,681 - #10 int
+INFO  22:03:31,681 - #10 niz
+INFO  22:03:31,682 - #12 [
+INFO  22:03:31,682 - #13 ]
+INFO  22:03:31,683 - #11 ;
+INFO  22:03:31,684 - #10 char
+INFO  22:03:31,685 - #10 nizch
+INFO  22:03:31,686 - #12 [
+INFO  22:03:31,686 - #13 ]
+INFO  22:03:31,686 - #11 ;
+INFO  22:03:31,687 - #8 {
+INFO  22:03:31,688 - #17 void
+INFO  22:03:31,691 - #10 main
+INFO  22:03:31,691 - #27 (
+INFO  22:03:31,692 - #28 )
+INFO  22:03:31,693 - #10 int
+INFO  22:03:31,695 - #10 bodovi
+INFO  22:03:31,696 - #11 ;
+INFO  22:03:31,696 - #10 bool
+INFO  22:03:31,697 - #10 promenljiva
+INFO  22:03:31,697 - #11 ;
+INFO  22:03:31,698 - #8 {
+INFO  22:03:31,698 - #10 niz
+INFO  22:03:31,701 - #20 =
+INFO  22:03:31,702 - #25 new
+INFO  22:03:31,702 - #10 int
+INFO  22:03:31,702 - #12 [
+INFO  22:03:31,703 - #29 3
+INFO  22:03:31,703 - #13 ]
+INFO  22:03:31,708 - #11 ;
+INFO  22:03:31,711 - #10 niz
+INFO  22:03:31,712 - #12 [
+INFO  22:03:31,713 - #29 2
+INFO  22:03:31,713 - #13 ]
+INFO  22:03:31,714 - #20 =
+INFO  22:03:31,715 - #29 1
+INFO  22:03:31,715 - #11 ;
+INFO  22:03:31,715 - #19 print
+INFO  22:03:31,716 - #27 (
+INFO  22:03:31,716 - #10 niz
+INFO  22:03:31,717 - #12 [
+INFO  22:03:31,717 - #29 2
+INFO  22:03:31,718 - #13 ]
+INFO  22:03:31,719 - #14 ,
+INFO  22:03:31,721 - #29 2
+INFO  22:03:31,721 - #28 )
+INFO  22:03:31,721 - #11 ;
+INFO  22:03:31,722 - #9 }
+INFO  22:03:31,733 - #9 }
+INFO  22:03:31,769 - Program(
+  ProgName(
+   test301
+  ) [ProgName]
+  DeclarationListVar(
+    DeclarationListVar(
+      DeclarationListConst(
+        DeclarationListConst(
+          DeclarationListConst(
+            NoDeclarationList(
+            ) [NoDeclarationList]
+            ConstDecl1(
+              Type(
+               int
+              ) [Type]
+             nula
+             0
+              ConstDeclList2(
+              ) [ConstDeclList2]
+            ) [ConstDecl1]
+          ) [DeclarationListConst]
+          ConstDecl1(
+            Type(
+             int
+            ) [Type]
+           jedan
+           1
+            ConstDeclList2(
+            ) [ConstDeclList2]
+          ) [ConstDecl1]
+        ) [DeclarationListConst]
+        ConstDecl1(
+          Type(
+           int
+          ) [Type]
+         pet
+         5
+          ConstDeclList2(
+          ) [ConstDeclList2]
+        ) [ConstDecl1]
+      ) [DeclarationListConst]
+      VarDecl2(
+        Type(
+         int
+        ) [Type]
+       niz
+        NoVarDeclNoMustList(
+        ) [NoVarDeclNoMustList]
+      ) [VarDecl2]
+    ) [DeclarationListVar]
+    VarDecl2(
+      Type(
+       char
+      ) [Type]
+     nizch
+      NoVarDeclNoMustList(
+      ) [NoVarDeclNoMustList]
+    ) [VarDecl2]
+  ) [DeclarationListVar]
+  MethodDeclList1(
+    NoMethodDeclList(
+    ) [NoMethodDeclList]
+    MethodDecl(
+      MethodDeclMustVoid(
+       main
+      ) [MethodDeclMustVoid]
+      NoFormsParsNoMust(
+      ) [NoFormsParsNoMust]
+      VarDeclList1(
+        VarDeclList1(
+          NoVarDeclList(
+          ) [NoVarDeclList]
+          VarDecl1(
+            Type(
+             int
+            ) [Type]
+           bodovi
+            NoVarDeclNoMustList(
+            ) [NoVarDeclNoMustList]
+          ) [VarDecl1]
+        ) [VarDeclList1]
+        VarDecl1(
+          Type(
+           bool
+          ) [Type]
+         promenljiva
+          NoVarDeclNoMustList(
+          ) [NoVarDeclNoMustList]
+        ) [VarDecl1]
+      ) [VarDeclList1]
+      StatementList1(
+        StatementList1(
+          StatementList1(
+            NoStatementList(
+            ) [NoStatementList]
+            Statement1(
+              DesignatorStatement(
+                Designator1(
+                 niz
+                ) [Designator1]
+                DesignatorStatementMust1(
+                  Expr0(
+                    Expr11(
+                      Term(
+                        Factor6(
+                          Type(
+                           int
+                          ) [Type]
+                          Expr0(
+                            Expr11(
+                              Term(
+                                Factor2(
+                                 3
+                                ) [Factor2]
+                                NoMulopFactorList(
+                                ) [NoMulopFactorList]
+                              ) [Term]
+                              NoAddopTermList(
+                              ) [NoAddopTermList]
+                            ) [Expr11]
+                          ) [Expr0]
+                        ) [Factor6]
+                        NoMulopFactorList(
+                        ) [NoMulopFactorList]
+                      ) [Term]
+                      NoAddopTermList(
+                      ) [NoAddopTermList]
+                    ) [Expr11]
+                  ) [Expr0]
+                ) [DesignatorStatementMust1]
+              ) [DesignatorStatement]
+            ) [Statement1]
+          ) [StatementList1]
+          Statement1(
+            DesignatorStatement(
+              Designator2(
+                Designator1(
+                 niz
+                ) [Designator1]
+                Expr0(
+                  Expr11(
+                    Term(
+                      Factor2(
+                       2
+                      ) [Factor2]
+                      NoMulopFactorList(
+                      ) [NoMulopFactorList]
+                    ) [Term]
+                    NoAddopTermList(
+                    ) [NoAddopTermList]
+                  ) [Expr11]
+                ) [Expr0]
+              ) [Designator2]
+              DesignatorStatementMust1(
+                Expr0(
+                  Expr11(
+                    Term(
+                      Factor2(
+                       1
+                      ) [Factor2]
+                      NoMulopFactorList(
+                      ) [NoMulopFactorList]
+                    ) [Term]
+                    NoAddopTermList(
+                    ) [NoAddopTermList]
+                  ) [Expr11]
+                ) [Expr0]
+              ) [DesignatorStatementMust1]
+            ) [DesignatorStatement]
+          ) [Statement1]
+        ) [StatementList1]
+        Statement4(
+          Expr0(
+            Expr11(
+              Term(
+                Factor1(
+                  Designator2(
+                    Designator1(
+                     niz
+                    ) [Designator1]
+                    Expr0(
+                      Expr11(
+                        Term(
+                          Factor2(
+                           2
+                          ) [Factor2]
+                          NoMulopFactorList(
+                          ) [NoMulopFactorList]
+                        ) [Term]
+                        NoAddopTermList(
+                        ) [NoAddopTermList]
+                      ) [Expr11]
+                    ) [Expr0]
+                  ) [Designator2]
+                ) [Factor1]
+                NoMulopFactorList(
+                ) [NoMulopFactorList]
+              ) [Term]
+              NoAddopTermList(
+              ) [NoAddopTermList]
+            ) [Expr11]
+          ) [Expr0]
+         2
+        ) [Statement4]
+      ) [StatementList1]
+    ) [MethodDecl]
+  ) [MethodDeclList1]
+) [Program]
+INFO  22:03:31,771 - ===================================
+INFO  22:03:31,809 - ===================================
+INFO  22:03:31,880 - Parsiranje uspesno zavrseno!

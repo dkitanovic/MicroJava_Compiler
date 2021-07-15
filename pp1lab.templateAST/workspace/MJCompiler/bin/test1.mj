@@ -1,0 +1,28 @@
+// Test301
+
+program test301
+
+	const int nula = 0;
+	const int jedan = 1;
+	const int pet = 5;
+
+	int niz[];
+	char nizch[];
+	char znak;
+{
+	void main()	
+		int bodovi;
+		bool promenljiva;
+	{
+		nizch = new char[5];
+		znak='x';
+		nizch[0] = znak;
+		print(nizch[0]);
+		niz = new int[5]; 
+		bodovi = 10;
+		[nizch[0] # niz] = bodovi;
+		print(niz[3]);
+	}
+}
+
+

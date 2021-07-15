@@ -1,0 +1,356 @@
+INFO  21:05:25,873 - Compiling source file: C:\Users\pc\Desktop\Ispiti\PP1\PP1\pp1lab.templateAST\workspace\MJCompiler\test\test1.mj
+INFO  21:05:26,102 - #7 program
+INFO  21:05:26,102 - #10 test301
+INFO  21:05:26,103 - #26 const
+INFO  21:05:26,108 - #10 int
+INFO  21:05:26,108 - #10 nula
+INFO  21:05:26,112 - #20 =
+INFO  21:05:26,113 - #29 0
+INFO  21:05:26,113 - #11 ;
+INFO  21:05:26,115 - #26 const
+INFO  21:05:26,116 - #10 int
+INFO  21:05:26,116 - #10 jedan
+INFO  21:05:26,116 - #20 =
+INFO  21:05:26,116 - #29 1
+INFO  21:05:26,116 - #11 ;
+INFO  21:05:26,117 - #26 const
+INFO  21:05:26,117 - #10 int
+INFO  21:05:26,117 - #10 pet
+INFO  21:05:26,117 - #20 =
+INFO  21:05:26,117 - #29 5
+INFO  21:05:26,118 - #11 ;
+INFO  21:05:26,118 - #10 int
+INFO  21:05:26,118 - #10 niz
+INFO  21:05:26,118 - #12 [
+INFO  21:05:26,118 - #13 ]
+INFO  21:05:26,118 - #11 ;
+INFO  21:05:26,122 - #10 char
+INFO  21:05:26,122 - #10 nizch
+INFO  21:05:26,122 - #12 [
+INFO  21:05:26,122 - #13 ]
+INFO  21:05:26,122 - #11 ;
+INFO  21:05:26,124 - #10 char
+INFO  21:05:26,124 - #10 znak
+INFO  21:05:26,124 - #11 ;
+INFO  21:05:26,124 - #8 {
+INFO  21:05:26,124 - #17 void
+INFO  21:05:26,127 - #10 main
+INFO  21:05:26,127 - #27 (
+INFO  21:05:26,127 - #28 )
+INFO  21:05:26,130 - #10 int
+INFO  21:05:26,133 - #10 bodovi
+INFO  21:05:26,133 - #11 ;
+INFO  21:05:26,133 - #10 bool
+INFO  21:05:26,134 - #10 promenljiva
+INFO  21:05:26,134 - #11 ;
+INFO  21:05:26,134 - #8 {
+INFO  21:05:26,134 - #10 znak
+INFO  21:05:26,137 - #20 =
+INFO  21:05:26,138 - #30 j
+INFO  21:05:26,138 - #11 ;
+INFO  21:05:26,150 - #10 niz
+INFO  21:05:26,150 - #20 =
+INFO  21:05:26,150 - #25 new
+INFO  21:05:26,150 - #10 int
+INFO  21:05:26,151 - #12 [
+INFO  21:05:26,151 - #29 3
+INFO  21:05:26,151 - #13 ]
+INFO  21:05:26,151 - #11 ;
+INFO  21:05:26,152 - #10 niz
+INFO  21:05:26,152 - #12 [
+INFO  21:05:26,152 - #29 1
+INFO  21:05:26,152 - #13 ]
+INFO  21:05:26,152 - #20 =
+INFO  21:05:26,152 - #29 3
+INFO  21:05:26,152 - #11 ;
+INFO  21:05:26,152 - #10 bodovi
+INFO  21:05:26,153 - #20 =
+INFO  21:05:26,153 - #29 4
+INFO  21:05:26,153 - #11 ;
+INFO  21:05:26,153 - #12 [
+INFO  21:05:26,153 - #10 znak
+INFO  21:05:26,153 - #42 #
+INFO  21:05:26,153 - #10 niz
+INFO  21:05:26,153 - #13 ]
+INFO  21:05:26,153 - #20 =
+INFO  21:05:26,155 - #10 bodovi
+INFO  21:05:26,155 - #11 ;
+INFO  21:05:26,155 - #9 }
+INFO  21:05:26,155 - #9 }
+INFO  21:05:26,178 - Program(
+  ProgName(
+   test301
+  ) [ProgName]
+  DeclarationListVar(
+    DeclarationListVar(
+      DeclarationListVar(
+        DeclarationListConst(
+          DeclarationListConst(
+            DeclarationListConst(
+              NoDeclarationList(
+              ) [NoDeclarationList]
+              ConstDecl1(
+                Type(
+                 int
+                ) [Type]
+               nula
+               0
+                ConstDeclList2(
+                ) [ConstDeclList2]
+              ) [ConstDecl1]
+            ) [DeclarationListConst]
+            ConstDecl1(
+              Type(
+               int
+              ) [Type]
+             jedan
+             1
+              ConstDeclList2(
+              ) [ConstDeclList2]
+            ) [ConstDecl1]
+          ) [DeclarationListConst]
+          ConstDecl1(
+            Type(
+             int
+            ) [Type]
+           pet
+           5
+            ConstDeclList2(
+            ) [ConstDeclList2]
+          ) [ConstDecl1]
+        ) [DeclarationListConst]
+        VarDecl2(
+          Type(
+           int
+          ) [Type]
+         niz
+          NoVarDeclNoMustList(
+          ) [NoVarDeclNoMustList]
+        ) [VarDecl2]
+      ) [DeclarationListVar]
+      VarDecl2(
+        Type(
+         char
+        ) [Type]
+       nizch
+        NoVarDeclNoMustList(
+        ) [NoVarDeclNoMustList]
+      ) [VarDecl2]
+    ) [DeclarationListVar]
+    VarDecl1(
+      Type(
+       char
+      ) [Type]
+     znak
+      NoVarDeclNoMustList(
+      ) [NoVarDeclNoMustList]
+    ) [VarDecl1]
+  ) [DeclarationListVar]
+  MethodDeclList1(
+    NoMethodDeclList(
+    ) [NoMethodDeclList]
+    MethodDecl(
+      MethodDeclMustVoid(
+       main
+      ) [MethodDeclMustVoid]
+      NoFormsParsNoMust(
+      ) [NoFormsParsNoMust]
+      VarDeclList1(
+        VarDeclList1(
+          NoVarDeclList(
+          ) [NoVarDeclList]
+          VarDecl1(
+            Type(
+             int
+            ) [Type]
+           bodovi
+            NoVarDeclNoMustList(
+            ) [NoVarDeclNoMustList]
+          ) [VarDecl1]
+        ) [VarDeclList1]
+        VarDecl1(
+          Type(
+           bool
+          ) [Type]
+         promenljiva
+          NoVarDeclNoMustList(
+          ) [NoVarDeclNoMustList]
+        ) [VarDecl1]
+      ) [VarDeclList1]
+      StatementList1(
+        StatementList1(
+          StatementList1(
+            StatementList1(
+              StatementList1(
+                NoStatementList(
+                ) [NoStatementList]
+                Statement1(
+                  DesignatorStatement(
+                    Designator1(
+                     znak
+                    ) [Designator1]
+                    DesignatorStatementMust1(
+                      Expr0(
+                        Expr11(
+                          Term(
+                            Factor3(
+                             j
+                            ) [Factor3]
+                            NoMulopFactorList(
+                            ) [NoMulopFactorList]
+                          ) [Term]
+                          NoAddopTermList(
+                          ) [NoAddopTermList]
+                        ) [Expr11]
+                      ) [Expr0]
+                    ) [DesignatorStatementMust1]
+                  ) [DesignatorStatement]
+                ) [Statement1]
+              ) [StatementList1]
+              Statement1(
+                DesignatorStatement(
+                  Designator1(
+                   niz
+                  ) [Designator1]
+                  DesignatorStatementMust1(
+                    Expr0(
+                      Expr11(
+                        Term(
+                          Factor6(
+                            Type(
+                             int
+                            ) [Type]
+                            Expr0(
+                              Expr11(
+                                Term(
+                                  Factor2(
+                                   3
+                                  ) [Factor2]
+                                  NoMulopFactorList(
+                                  ) [NoMulopFactorList]
+                                ) [Term]
+                                NoAddopTermList(
+                                ) [NoAddopTermList]
+                              ) [Expr11]
+                            ) [Expr0]
+                          ) [Factor6]
+                          NoMulopFactorList(
+                          ) [NoMulopFactorList]
+                        ) [Term]
+                        NoAddopTermList(
+                        ) [NoAddopTermList]
+                      ) [Expr11]
+                    ) [Expr0]
+                  ) [DesignatorStatementMust1]
+                ) [DesignatorStatement]
+              ) [Statement1]
+            ) [StatementList1]
+            Statement1(
+              DesignatorStatement(
+                Designator2(
+                  Designator1(
+                   niz
+                  ) [Designator1]
+                  Expr0(
+                    Expr11(
+                      Term(
+                        Factor2(
+                         1
+                        ) [Factor2]
+                        NoMulopFactorList(
+                        ) [NoMulopFactorList]
+                      ) [Term]
+                      NoAddopTermList(
+                      ) [NoAddopTermList]
+                    ) [Expr11]
+                  ) [Expr0]
+                ) [Designator2]
+                DesignatorStatementMust1(
+                  Expr0(
+                    Expr11(
+                      Term(
+                        Factor2(
+                         3
+                        ) [Factor2]
+                        NoMulopFactorList(
+                        ) [NoMulopFactorList]
+                      ) [Term]
+                      NoAddopTermList(
+                      ) [NoAddopTermList]
+                    ) [Expr11]
+                  ) [Expr0]
+                ) [DesignatorStatementMust1]
+              ) [DesignatorStatement]
+            ) [Statement1]
+          ) [StatementList1]
+          Statement1(
+            DesignatorStatement(
+              Designator1(
+               bodovi
+              ) [Designator1]
+              DesignatorStatementMust1(
+                Expr0(
+                  Expr11(
+                    Term(
+                      Factor2(
+                       4
+                      ) [Factor2]
+                      NoMulopFactorList(
+                      ) [NoMulopFactorList]
+                    ) [Term]
+                    NoAddopTermList(
+                    ) [NoAddopTermList]
+                  ) [Expr11]
+                ) [Expr0]
+              ) [DesignatorStatementMust1]
+            ) [DesignatorStatement]
+          ) [Statement1]
+        ) [StatementList1]
+        Statement1(
+          DesignatorStatement(
+            Designator3(
+              Designator1(
+               znak
+              ) [Designator1]
+              Designator1(
+               niz
+              ) [Designator1]
+            ) [Designator3]
+            DesignatorStatementMust1(
+              Expr0(
+                Expr11(
+                  Term(
+                    Factor1(
+                      Designator1(
+                       bodovi
+                      ) [Designator1]
+                    ) [Factor1]
+                    NoMulopFactorList(
+                    ) [NoMulopFactorList]
+                  ) [Term]
+                  NoAddopTermList(
+                  ) [NoAddopTermList]
+                ) [Expr11]
+              ) [Expr0]
+            ) [DesignatorStatementMust1]
+          ) [DesignatorStatement]
+        ) [Statement1]
+      ) [StatementList1]
+    ) [MethodDecl]
+  ) [MethodDeclList1]
+) [Program]
+INFO  21:05:26,178 - ===================================
+INFO  21:05:26,187 - Pretraga na 17(znak), nadjeno Var znak: char, 2, 0 na liniji 17
+INFO  21:05:26,188 - Pretraga na 18(niz), nadjeno Var niz: array of int, 0, 0 na liniji 18
+INFO  21:05:26,189 - Pretraga na 19(niz), nadjeno Var niz: array of int, 0, 0 na liniji 19
+INFO  21:05:26,189 - Pretraga na 20(bodovi), nadjeno Var bodovi: int, 0, 1 na liniji 20
+INFO  21:05:26,189 - Pretraga na 21(znak), nadjeno Var znak: char, 2, 0 na liniji 21
+INFO  21:05:26,189 - Pretraga na 21(niz), nadjeno Var niz: array of int, 0, 0 na liniji 21
+INFO  21:05:26,189 - Pretraga na 21(bodovi), nadjeno Var bodovi: int, 0, 1 na liniji 21
+INFO  21:05:26,189 - Global variables : 3
+INFO  21:05:26,190 - Global constants : 3
+INFO  21:05:26,190 - Global arrays : 2
+INFO  21:05:26,190 - Local variables : 2
+INFO  21:05:26,190 - Statements : 5
+INFO  21:05:26,190 - ===================================
+INFO  21:05:26,210 - Parsiranje uspesno zavrseno!

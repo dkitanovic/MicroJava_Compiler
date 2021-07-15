@@ -1,0 +1,115 @@
+INFO  16:01:43,563 - Compiling source file: C:\Users\pc\Desktop\PP1\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  16:01:43,671 - #7 program
+INFO  16:01:43,675 - #10 test301
+INFO  16:01:43,676 - #8 {
+INFO  16:01:43,682 - #17 void
+INFO  16:01:43,686 - #10 main
+INFO  16:01:43,687 - #27 (
+INFO  16:01:43,687 - #28 )
+INFO  16:01:43,689 - #10 int
+INFO  16:01:43,694 - #10 bodovi
+INFO  16:01:43,699 - #11 ;
+INFO  16:01:43,704 - #10 bool
+INFO  16:01:43,705 - #10 bt
+INFO  16:01:43,705 - #11 ;
+INFO  16:01:43,706 - #8 {
+INFO  16:01:43,706 - #10 bodovi
+INFO  16:01:43,709 - #20 =
+INFO  16:01:43,709 - #29 0
+INFO  16:01:43,710 - #11 ;
+INFO  16:01:43,721 - #19 print
+INFO  16:01:43,724 - #27 (
+INFO  16:01:43,742 - #29 0
+INFO  16:01:43,748 - #28 )
+INFO  16:01:43,749 - #11 ;
+INFO  16:01:43,749 - #9 }
+INFO  16:01:43,750 - #9 }
+INFO  16:01:43,799 - Program(
+  ProgName(
+   test301
+  ) [ProgName]
+  NoDeclarationList(
+  ) [NoDeclarationList]
+  MethodDeclList1(
+    NoMethodDeclList(
+    ) [NoMethodDeclList]
+    MethodDecl(
+      MethodDeclMustVoid(
+       main
+      ) [MethodDeclMustVoid]
+      NoFormsParsNoMust(
+      ) [NoFormsParsNoMust]
+      VarDeclList1(
+        VarDeclList1(
+          NoVarDeclList(
+          ) [NoVarDeclList]
+          VarDecl1(
+            Type(
+             int
+            ) [Type]
+           bodovi
+            NoVarDeclNoMustList(
+            ) [NoVarDeclNoMustList]
+          ) [VarDecl1]
+        ) [VarDeclList1]
+        VarDecl1(
+          Type(
+           bool
+          ) [Type]
+         bt
+          NoVarDeclNoMustList(
+          ) [NoVarDeclNoMustList]
+        ) [VarDecl1]
+      ) [VarDeclList1]
+      StatementList1(
+        StatementList1(
+          NoStatementList(
+          ) [NoStatementList]
+          Statement1(
+            DesignatorStatement(
+              Designator1(
+               bodovi
+              ) [Designator1]
+              DesignatorStatementMust1(
+                Expr0(
+                  Expr11(
+                    Term(
+                      Factor2(
+                       0
+                      ) [Factor2]
+                      NoMulopFactorList(
+                      ) [NoMulopFactorList]
+                    ) [Term]
+                    NoAddopTermList(
+                    ) [NoAddopTermList]
+                  ) [Expr11]
+                ) [Expr0]
+              ) [DesignatorStatementMust1]
+            ) [DesignatorStatement]
+          ) [Statement1]
+        ) [StatementList1]
+        Statement3(
+          Expr0(
+            Expr11(
+              Term(
+                Factor2(
+                 0
+                ) [Factor2]
+                NoMulopFactorList(
+                ) [NoMulopFactorList]
+              ) [Term]
+              NoAddopTermList(
+              ) [NoAddopTermList]
+            ) [Expr11]
+          ) [Expr0]
+        ) [Statement3]
+      ) [StatementList1]
+    ) [MethodDecl]
+  ) [MethodDeclList1]
+) [Program]
+INFO  16:01:43,801 - ===================================
+INFO  16:01:43,825 - Obradjuje se funkcija main na liniji 8
+INFO  16:01:43,826 - Deklarisana promenljiva bodovi na liniji 9
+INFO  16:01:43,826 - Deklarisana promenljiva bt na liniji 10
+INFO  16:01:43,831 - ===================================
+INFO  16:01:43,863 - Parsiranje uspesno zavrseno!

@@ -1,0 +1,182 @@
+INFO  13:03:31,809 - Compiling source file: C:\Users\pc\Desktop\Ispiti\PP1\PP1\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  13:03:31,916 - #7 program
+INFO  13:03:31,917 - #10 test301
+INFO  13:03:31,920 - #26 const
+INFO  13:03:31,924 - #10 int
+INFO  13:03:31,924 - #10 nula
+INFO  13:03:31,925 - #20 =
+INFO  13:03:31,925 - #29 0
+INFO  13:03:31,925 - #11 ;
+INFO  13:03:31,931 - #26 const
+INFO  13:03:31,934 - #10 int
+INFO  13:03:31,935 - #10 jedan
+INFO  13:03:31,935 - #20 =
+INFO  13:03:31,936 - #29 1
+INFO  13:03:31,936 - #11 ;
+INFO  13:03:31,936 - #26 const
+INFO  13:03:31,937 - #10 int
+INFO  13:03:31,937 - #10 pet
+INFO  13:03:31,937 - #20 =
+INFO  13:03:31,938 - #29 5
+INFO  13:03:31,939 - #11 ;
+INFO  13:03:31,945 - #10 int
+INFO  13:03:31,946 - #10 niz
+INFO  13:03:31,948 - #12 [
+INFO  13:03:31,949 - #13 ]
+INFO  13:03:31,949 - #11 ;
+INFO  13:03:31,952 - #10 char
+INFO  13:03:31,953 - #10 nizch
+INFO  13:03:31,954 - #12 [
+INFO  13:03:31,954 - #13 ]
+INFO  13:03:31,955 - #11 ;
+INFO  13:03:31,955 - #8 {
+INFO  13:03:31,955 - #17 void
+INFO  13:03:31,958 - #10 main
+INFO  13:03:31,959 - #27 (
+INFO  13:03:31,959 - #28 )
+INFO  13:03:31,959 - #10 int
+INFO  13:03:31,963 - #10 bodovi
+INFO  13:03:31,964 - #11 ;
+INFO  13:03:31,964 - #10 bool
+INFO  13:03:31,964 - #10 bt
+INFO  13:03:31,964 - #11 ;
+INFO  13:03:31,964 - #8 {
+INFO  13:03:31,967 - #10 bodovi
+INFO  13:03:31,967 - #20 =
+INFO  13:03:31,967 - #29 5
+INFO  13:03:31,967 - #11 ;
+INFO  13:03:31,975 - #9 }
+INFO  13:03:31,977 - #9 }
+INFO  13:03:32,036 - Program(
+  ProgName(
+   test301
+  ) [ProgName]
+  DeclarationListVar(
+    DeclarationListVar(
+      DeclarationListConst(
+        DeclarationListConst(
+          DeclarationListConst(
+            NoDeclarationList(
+            ) [NoDeclarationList]
+            ConstDecl1(
+              Type(
+               int
+              ) [Type]
+             nula
+             0
+              ConstDeclList2(
+              ) [ConstDeclList2]
+            ) [ConstDecl1]
+          ) [DeclarationListConst]
+          ConstDecl1(
+            Type(
+             int
+            ) [Type]
+           jedan
+           1
+            ConstDeclList2(
+            ) [ConstDeclList2]
+          ) [ConstDecl1]
+        ) [DeclarationListConst]
+        ConstDecl1(
+          Type(
+           int
+          ) [Type]
+         pet
+         5
+          ConstDeclList2(
+          ) [ConstDeclList2]
+        ) [ConstDecl1]
+      ) [DeclarationListConst]
+      VarDecl2(
+        Type(
+         int
+        ) [Type]
+       niz
+        NoVarDeclNoMustList(
+        ) [NoVarDeclNoMustList]
+      ) [VarDecl2]
+    ) [DeclarationListVar]
+    VarDecl2(
+      Type(
+       char
+      ) [Type]
+     nizch
+      NoVarDeclNoMustList(
+      ) [NoVarDeclNoMustList]
+    ) [VarDecl2]
+  ) [DeclarationListVar]
+  MethodDeclList1(
+    NoMethodDeclList(
+    ) [NoMethodDeclList]
+    MethodDecl(
+      MethodDeclMustVoid(
+       main
+      ) [MethodDeclMustVoid]
+      NoFormsParsNoMust(
+      ) [NoFormsParsNoMust]
+      VarDeclList1(
+        VarDeclList1(
+          NoVarDeclList(
+          ) [NoVarDeclList]
+          VarDecl1(
+            Type(
+             int
+            ) [Type]
+           bodovi
+            NoVarDeclNoMustList(
+            ) [NoVarDeclNoMustList]
+          ) [VarDecl1]
+        ) [VarDeclList1]
+        VarDecl1(
+          Type(
+           bool
+          ) [Type]
+         bt
+          NoVarDeclNoMustList(
+          ) [NoVarDeclNoMustList]
+        ) [VarDecl1]
+      ) [VarDeclList1]
+      StatementList1(
+        NoStatementList(
+        ) [NoStatementList]
+        Statement1(
+          DesignatorStatement(
+            Designator1(
+             bodovi
+            ) [Designator1]
+            DesignatorStatementMust1(
+              Expr0(
+                Expr11(
+                  Term(
+                    Factor2(
+                     5
+                    ) [Factor2]
+                    NoMulopFactorList(
+                    ) [NoMulopFactorList]
+                  ) [Term]
+                  NoAddopTermList(
+                  ) [NoAddopTermList]
+                ) [Expr11]
+              ) [Expr0]
+            ) [DesignatorStatementMust1]
+          ) [DesignatorStatement]
+        ) [Statement1]
+      ) [StatementList1]
+    ) [MethodDecl]
+  ) [MethodDeclList1]
+) [Program]
+INFO  13:03:32,037 - ===================================
+INFO  13:03:32,050 - Deklarisana konstanta nula na liniji 5
+INFO  13:03:32,051 - Deklarisana konstanta jedan na liniji 6
+INFO  13:03:32,059 - Deklarisana konstanta pet na liniji 7
+INFO  13:03:32,059 - Deklarisana promenljiva niz na liniji 8
+INFO  13:03:32,059 - Deklarisana promenljiva nizch na liniji 9
+INFO  13:03:32,059 - Obradjuje se funkcija main na liniji 13
+INFO  13:03:32,059 - Deklarisana promenljiva bodovi na liniji 14
+INFO  13:03:32,059 - Deklarisana promenljiva bt na liniji 15
+INFO  13:03:32,059 - NoAddopTermList(
+) [NoAddopTermList] na liniji 18
+ERROR 13:03:32,061 - Nije isti tip kod sabiranja na liniji 18!
+INFO  13:03:32,061 - ===================================
+ERROR 13:03:32,066 - Parsiranje NIJE uspesno zavrseno!

@@ -1,0 +1,151 @@
+INFO  14:35:59,305 - Compiling source file: C:\Users\pc\Desktop\PP1\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  14:35:59,354 - #7 program
+INFO  14:35:59,354 - #10 test301
+INFO  14:35:59,354 - #26 const
+INFO  14:35:59,355 - #10 int
+INFO  14:35:59,355 - #10 nula
+INFO  14:35:59,356 - #20 =
+INFO  14:35:59,356 - #29 0
+INFO  14:35:59,356 - #11 ;
+INFO  14:35:59,357 - #26 const
+INFO  14:35:59,358 - #10 int
+INFO  14:35:59,358 - #10 jedan
+INFO  14:35:59,358 - #20 =
+INFO  14:35:59,358 - #29 1
+INFO  14:35:59,358 - #11 ;
+INFO  14:35:59,358 - #26 const
+INFO  14:35:59,358 - #10 int
+INFO  14:35:59,359 - #10 pet
+INFO  14:35:59,359 - #20 =
+INFO  14:35:59,359 - #29 5
+INFO  14:35:59,359 - #11 ;
+INFO  14:35:59,359 - #10 int
+INFO  14:35:59,365 - #10 niz
+INFO  14:35:59,365 - #12 [
+INFO  14:35:59,365 - #13 ]
+INFO  14:35:59,365 - #11 ;
+INFO  14:35:59,366 - #10 char
+INFO  14:35:59,366 - #10 nizch
+INFO  14:35:59,366 - #12 [
+INFO  14:35:59,366 - #13 ]
+INFO  14:35:59,367 - #11 ;
+INFO  14:35:59,367 - #8 {
+INFO  14:35:59,367 - #17 void
+INFO  14:35:59,368 - #10 main
+INFO  14:35:59,368 - #27 (
+INFO  14:35:59,368 - #28 )
+INFO  14:35:59,369 - #10 int
+INFO  14:35:59,370 - #10 bodovi
+INFO  14:35:59,370 - #11 ;
+INFO  14:35:59,370 - #10 bool
+INFO  14:35:59,370 - #10 bt
+INFO  14:35:59,370 - #11 ;
+INFO  14:35:59,370 - #8 {
+INFO  14:35:59,371 - #9 }
+INFO  14:35:59,372 - #9 }
+INFO  14:35:59,381 - Program(
+  ProgName(
+   test301
+  ) [ProgName]
+  DeclarationListVar(
+    DeclarationListVar(
+      DeclarationListConst(
+        DeclarationListConst(
+          DeclarationListConst(
+            NoDeclarationList(
+            ) [NoDeclarationList]
+            ConstDecl1(
+              Type(
+               int
+              ) [Type]
+             nula
+             0
+              ConstDeclList2(
+              ) [ConstDeclList2]
+            ) [ConstDecl1]
+          ) [DeclarationListConst]
+          ConstDecl1(
+            Type(
+             int
+            ) [Type]
+           jedan
+           1
+            ConstDeclList2(
+            ) [ConstDeclList2]
+          ) [ConstDecl1]
+        ) [DeclarationListConst]
+        ConstDecl1(
+          Type(
+           int
+          ) [Type]
+         pet
+         5
+          ConstDeclList2(
+          ) [ConstDeclList2]
+        ) [ConstDecl1]
+      ) [DeclarationListConst]
+      VarDecl2(
+        Type(
+         int
+        ) [Type]
+       niz
+        NoVarDeclNoMustList(
+        ) [NoVarDeclNoMustList]
+      ) [VarDecl2]
+    ) [DeclarationListVar]
+    VarDecl2(
+      Type(
+       char
+      ) [Type]
+     nizch
+      NoVarDeclNoMustList(
+      ) [NoVarDeclNoMustList]
+    ) [VarDecl2]
+  ) [DeclarationListVar]
+  MethodDeclList1(
+    NoMethodDeclList(
+    ) [NoMethodDeclList]
+    MethodDecl(
+      MethodDeclMustVoid(
+       main
+      ) [MethodDeclMustVoid]
+      NoFormsParsNoMust(
+      ) [NoFormsParsNoMust]
+      VarDeclList1(
+        VarDeclList1(
+          NoVarDeclList(
+          ) [NoVarDeclList]
+          VarDecl1(
+            Type(
+             int
+            ) [Type]
+           bodovi
+            NoVarDeclNoMustList(
+            ) [NoVarDeclNoMustList]
+          ) [VarDecl1]
+        ) [VarDeclList1]
+        VarDecl1(
+          Type(
+           bool
+          ) [Type]
+         bt
+          NoVarDeclNoMustList(
+          ) [NoVarDeclNoMustList]
+        ) [VarDecl1]
+      ) [VarDeclList1]
+      NoStatementList(
+      ) [NoStatementList]
+    ) [MethodDecl]
+  ) [MethodDeclList1]
+) [Program]
+INFO  14:35:59,382 - ===================================
+INFO  14:35:59,386 - Deklarisana konstanta nula na liniji 5
+INFO  14:35:59,387 - Deklarisana konstanta jedan na liniji 6
+INFO  14:35:59,387 - Deklarisana konstanta pet na liniji 7
+INFO  14:35:59,387 - Deklarisana promenljiva niz na liniji 8
+INFO  14:35:59,387 - Deklarisana promenljiva nizch na liniji 9
+INFO  14:35:59,387 - Obradjuje se funkcija main na liniji 12
+INFO  14:35:59,387 - Deklarisana promenljiva bodovi na liniji 13
+INFO  14:35:59,387 - Deklarisana promenljiva bt na liniji 14
+INFO  14:35:59,387 - ===================================
+INFO  14:35:59,388 - Parsiranje uspesno zavrseno!
