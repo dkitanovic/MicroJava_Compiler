@@ -7,7 +7,7 @@ Four stages:
   3.Semantics Analyzer
   4.Code Generator
 
-There are:
+#There are:
   1.Value/primitive types (int, char and bool) and one-dimensional arrays
   2.Integer, character and boolean constants
   3.Global and local variables
